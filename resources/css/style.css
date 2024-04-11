@@ -127,7 +127,7 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
-  background-image: url('../images/banner-landingpage.jpg');
+  background-image: url('../images/Bbq-1.jpeg');
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -215,10 +215,12 @@ header .mobile {
     margin-top: 0;
   }
 
+  /*
   #sign-up-cta .email {
     display: none;
   }
-
+  */
+  
   #sign-up-cta h1 {
     font-size: 3.125rem;
   }
