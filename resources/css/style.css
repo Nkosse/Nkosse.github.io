@@ -14,12 +14,6 @@ html {
   text-align: center;
 }
 
-.button {
-  border-radius: 4px;
-  background-color: #4a4a4a;
-  color: white;
-}
-
 .image-container {
   overflow: hidden;
 }
@@ -72,7 +66,7 @@ nav a {
 
 nav .button {
   padding: .1875rem .5rem;
-  background-color: #9dc20b;
+  background-color: rgb(139, 50, 44);
   line-height: 1.6;
   color: white;
 }
@@ -144,9 +138,8 @@ header .mobile {
   top: 171px;
   left: 10%;
   padding: 0 5rem 2.5rem 5rem;
-  border: solid 1px #979797;
-  border-radius: 4px;
-  background-color: #9dc20b;
+  background-color: rgb(139, 50, 44);
+  border-radius: 15px;
 }
 
 #sign-up-cta .content {
@@ -179,9 +172,28 @@ header .mobile {
   padding-bottom: .75rem;
 }
 
-#sign-up-cta .button {
+.button-cta {
   margin-top: 1.625rem;
-  padding: 1.25rem 7.25rem;
+  padding: 1.25rem 2.25rem;
+  transition-duration: 0.2s;
+  background-color: rgb(71, 147, 175);
+  border: rgb(71, 147, 175);
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.button-cta:hover {
+  background-color: rgb(255, 196, 112);
+  color: white;
+}
+
+.button-cta:active {
+  background-color: rgb(245, 145, 3); /* Nog donkerder groen bij indrukken */
+  box-shadow: 0 5px rgba(0,0,0,0.2); /* Simuleert indrukken */
+  transform: translateY(4px);
 }
 
 @media only screen and (max-width: 895px) {
@@ -244,6 +256,7 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  box-shadow: 10px 5px 5px rgba(0,0,0,0.2);
 }
 
 .feature .image-container {
@@ -311,7 +324,7 @@ header .mobile {
 
 #filters-section {
   padding: 4rem 0;
-  background-color: #4a4a4a;
+  background-color: rgb(221, 87, 70);
 }
 
 #filters-section .content {
@@ -421,7 +434,7 @@ header .mobile {
 /* Footer */
 
 footer {
-  background-color: #9b9b9b;
+  background-color: rgb(221, 87, 70);
   padding: 1.5rem 2rem;
 }
 
