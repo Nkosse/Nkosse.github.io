@@ -71,9 +71,11 @@ nav .button {
   color: white;
 }
 
+/*
 nav li:last-child {
   display: none;
 }
+*/
 
 header .icon {
   width: 1rem;
@@ -126,16 +128,16 @@ header .mobile {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 43.5rem;
+  height: 35.5rem;
   background-image: url('../images/Bbq-1.jpeg');
-  background-position: bottom;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #sign-up-cta {
   position: relative;
-  top: 171px;
+  top: 135px;
   left: 10%;
   padding: 0 5rem 2.5rem 5rem;
   background-color: rgb(139, 50, 44);
@@ -215,7 +217,7 @@ header .mobile {
     margin-top: 0;
   }
 
-  /*
+  /* Dit is voor als je de achtergrond van de cta wil laten verdwijnen bij het krimpen van het scherm
   #sign-up-cta .email {
     display: none;
   }
@@ -455,3 +457,81 @@ footer .copyright {
     font-size: .625rem;
   }
 }
+
+/* over-mij-section*/ 
+
+#over-mij-section {
+  display: block;
+  padding: 4rem 5%;
+  background-color: #f3f3f3;
+  align-content: center;
+}
+
+#over-mij-section h2 {
+  padding-bottom: 2rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+/* Contact-section*/ 
+
+#contact-section {
+  display: block;
+  padding: 4rem 5%;
+  background-color: #f3f3f3;
+  align-content: center;
+}
+
+#contact-section h2 {
+  padding-bottom: 2rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  margin-top: 1.625rem;
+  padding: 0.75rem 1.75rem;
+  transition-duration: 0.2s;
+  background-color: rgb(71, 147, 175);
+  border: rgb(71, 147, 175);
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(255, 196, 112);
+  color: white;
+}
+input[type=sumbit]:hover {
+  background-color: rgb(245, 145, 3); /* Nog donkerder groen bij indrukken */
+  box-shadow: 0 5px rgba(0,0,0,0.2); /* Simuleert indrukken */
+  transform: translateY(4px);
+}
+
+/* Add a background color and some padding around the form */
+.contact-formulier {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
