@@ -55,20 +55,29 @@
         <div class="contact-formulier">
             <form action="submit-knop.php" method="post">
       
-            <label for="fname">Voornaam</label>
-            <input type="text" id="fname" name="voornaam" placeholder="Jouw naam..">
+            <label for="voornaam">Voornaam</label>
+            <input type="text" id="voornaam" name="voornaam" placeholder="Jouw naam..">
       
-            <label for="lname">Achternaam</label>
-            <input type="text" id="lname" name="achternaam" placeholder="Jouw achternaam..">
+            <label for="achternaam">Achternaam</label>
+            <input type="text" id="achternaam" name="achternaam" placeholder="Jouw achternaam..">
       
-            <label for="Provincie">Provincie</label>
-            <select id="Provincie" name="Provincie">
+            <label for="provincie">Provincie</label>
+            <select id="provincie" name="provincie">
+                <option value="groningen">Groningen</option>
+                <option value="friesland">Friesland</option>
                 <option value="overijssel">Overijssel</option>
                 <option value="gelderland">Geldeland</option>
+                <option value="flevoland">Flevoland</option>
+                <option value="utrecht">Utrecht</option>
+                <option value="noord-holland">Noord-holland</option>
+                <option value="zuid-holland">Zuid-holland</option>
+                <option value="zeeland">Zeeland</option>
+                <option value="noord-brabant">Noord-Brabant</option>
+                <option value="limburg">Limburg</option>
                 <option value="drenthe">Drenthe</option>
             </select>
       
-            <label for="Onderwerp">Onderwerp</label>
+            <label for="onderwerp">Onderwerp</label>
             <textarea id="onderwerp" name="onderwerp" placeholder="Schrijf iets.." style="height:200px"></textarea>
       
             <input type="submit" value="Submit">
