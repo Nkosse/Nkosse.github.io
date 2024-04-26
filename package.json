@@ -1,0 +1,21 @@
+{
+    "name": "nkossegithubio",
+    "version": "1.0.0",
+    "description": "Een voorbeeld Node.js-project",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Geen tests gespecificeerd\" && exit 0"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "eslint": "^7.32.0",
+      "mocha": "^9.1.1"
+    },
+    "author": "Jouw Naam",
+    "license": "MIT",
+    "keywords": ["Node.js", "Express", "Voorbeeld"]
+  }
+  
