@@ -49,25 +49,45 @@ header .logo {
   flex: 1;
 }
 
+header .logo img {
+  width: 5rem; /* Pas de grootte aan naar wens */
+  height: auto;
+}
+
 header nav ul {
   display: flex;
 }
 
 nav li {
-  padding-left: 3.5rem;
+  margin-left: 2rem;
 }
 
 nav a {
-  vertical-align: bottom;
-  line-height: 1.6;
-  font-size: 1rem;
+  display: inline-block;
+  text-decoration: none;
   color: #4a4a4a;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
 }
+
+nav a:hover {
+  background-color: #B7415A;
+  color: white;
+}
+
 
 nav .button {
   padding: .1875rem .5rem;
-  background-color: rgb(139, 50, 44);
+  background-color: #B7415A;
   line-height: 1.6;
+  color: white;
+}
+
+nav .button:hover {
+  background-color: #B7415A;
   color: white;
 }
 
@@ -140,7 +160,7 @@ header .mobile {
   top: 135px;
   left: 10%;
   padding: 0 5rem 2.5rem 5rem;
-  background-color: rgb(139, 50, 44);
+  background-color: #9B2B3D;
   border-radius: 15px;
 }
 
@@ -328,7 +348,7 @@ header .mobile {
 
 #filters-section {
   padding: 4rem 0;
-  background-color: rgb(221, 87, 70);
+  background-color: #9B2B3D;
 }
 
 #filters-section .content {
@@ -407,10 +427,6 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section .quote-citation {
-  height: 1.875rem;
-}
-
 @media only screen and (max-width: 895px) {
   #quotes-section .content {
     padding: 3rem 1.5rem;
@@ -427,18 +443,12 @@ header .mobile {
     font-size: 1.5rem;
     line-height: 1.4;
   }
-
-  #quotes-section .quote-citation {
-    display: block;
-    padding-top: 1rem;
-    margin: auto;
-  }
 }
 
 /* Footer */
 
 footer {
-  background-color: rgb(221, 87, 70);
+  background-color: #9B2B3D;
   padding: 1.5rem 2rem;
 }
 
